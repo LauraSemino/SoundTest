@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Sounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639098884808521598
+  lastModified: 639098894665022804
   FileSizes:
   - Name: Desktop
     Value: 766
@@ -43,7 +43,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -5426603495374475907}
   cacheVersion: 131848
-  cacheTime: 639098884808521598
+  cacheTime: 639098894665022804
   SerializableEventsDict:
   - key: event:/Audio
     index: 0
@@ -62,10 +62,10 @@ MonoBehaviour:
   Path: Sounds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639098884808486432
+  lastModified: 639098894664997731
   FileSizes:
   - Name: Desktop
-    Value: 1612
+    Value: 9280
   Exists: 1
 --- !u!114 &7111235871281101630
 MonoBehaviour:
@@ -93,4 +93,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 888
