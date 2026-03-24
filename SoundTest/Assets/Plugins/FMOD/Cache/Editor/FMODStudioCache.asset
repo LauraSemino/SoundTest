@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8884929979126078435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/tony hawk
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/tony hawk
+  Guid:
+    Data1: 1324160714
+    Data2: 1134189101
+    Data3: 25239708
+    Data4: 1159511598
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1030
+--- !u!114 &-6800006716732961084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/button
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/button
+  Guid:
+    Data1: -1416287856
+    Data2: 1151343984
+    Data3: -1683693924
+    Data4: -1197025321
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 888
 --- !u!114 &-5426603495374475907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +69,92 @@ MonoBehaviour:
   Path: Sounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639098894665022804
+  lastModified: 639098927766837456
   FileSizes:
   - Name: Desktop
-    Value: 766
+    Value: 1100
   Exists: 1
+--- !u!114 &-2448145321964094208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shotgun
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Shotgun
+  Guid:
+    Data1: -331182689
+    Data2: 1297984642
+    Data3: -119857494
+    Data4: 1522309782
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1272
+--- !u!114 &-1147951928784724201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/parry 2
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/parry 2
+  Guid:
+    Data1: -255112683
+    Data2: 1156126873
+    Data3: 1492457609
+    Data4: 1188741886
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 850
+--- !u!114 &-1054585542708879883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/bomb
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/bomb
+  Guid:
+    Data1: 691098605
+    Data2: 1291510208
+    Data3: -1668760444
+    Data4: -1543576353
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1521
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,17 +171,41 @@ MonoBehaviour:
   - {fileID: -5426603495374475907}
   - {fileID: 717863538387548082}
   EditorEvents:
-  - {fileID: 7111235871281101630}
+  - {fileID: -6800006716732961084}
+  - {fileID: -2448145321964094208}
+  - {fileID: 3214417633507835292}
+  - {fileID: 6352166284601813296}
+  - {fileID: -1054585542708879883}
+  - {fileID: -8884929979126078435}
+  - {fileID: 8527733474860775207}
+  - {fileID: -1147951928784724201}
+  - {fileID: 8114030114055962081}
   EditorParameters: []
   MasterBanks:
   - {fileID: 717863538387548082}
   StringsBanks:
   - {fileID: -5426603495374475907}
   cacheVersion: 131848
-  cacheTime: 639098894665022804
+  cacheTime: 639098927766837456
   SerializableEventsDict:
-  - key: event:/Audio
+  - key: event:/button
     index: 0
+  - key: event:/Shotgun
+    index: 1
+  - key: event:/Airhorn
+    index: 2
+  - key: event:/Girlfriend
+    index: 3
+  - key: event:/bomb
+    index: 4
+  - key: event:/tony hawk
+    index: 5
+  - key: event:/parry
+    index: 6
+  - key: event:/parry 2
+    index: 7
+  - key: event:/bananana
+    index: 8
 --- !u!114 &717863538387548082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,12 +221,12 @@ MonoBehaviour:
   Path: Sounds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639098894664997731
+  lastModified: 639098927766807121
   FileSizes:
   - Name: Desktop
-    Value: 9280
+    Value: 169312
   Exists: 1
---- !u!114 &7111235871281101630
+--- !u!114 &3214417633507835292
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77,14 +236,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Audio
+  m_Name: event:/Airhorn
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Audio
+  Path: event:/Airhorn
   Guid:
-    Data1: -1416287856
-    Data2: 1151343984
-    Data3: -1683693924
-    Data4: -1197025321
+    Data1: -250323591
+    Data2: 1242069391
+    Data3: -1463399030
+    Data4: -522371166
   Banks:
   - {fileID: 717863538387548082}
   IsStream: 0
@@ -93,4 +252,85 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 888
+  Length: 1624
+--- !u!114 &6352166284601813296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Girlfriend
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Girlfriend
+  Guid:
+    Data1: 1020375342
+    Data2: 1113171253
+    Data3: -1995079012
+    Data4: 1220499847
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1020
+--- !u!114 &8114030114055962081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/bananana
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/bananana
+  Guid:
+    Data1: -1077026254
+    Data2: 1142861504
+    Data3: 2042332340
+    Data4: -900799041
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3580
+--- !u!114 &8527733474860775207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/parry
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/parry
+  Guid:
+    Data1: -1456906934
+    Data2: 1154106797
+    Data3: 1408352684
+    Data4: -1539676651
+  Banks:
+  - {fileID: 717863538387548082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 640

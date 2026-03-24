@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9cc5b4f7-7d58-4982-ba63-6a1fd8c275a4}">
+		<property name="assetPath">
+			<value>parry-ultrakill.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.74399999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{edc053db-8b16-4f61-a451-fe68b45c0ad1}</destination>
+		</relationship>
+	</object>
+</objects>
